@@ -19,8 +19,6 @@
       <i class="fa fa-download" aria-hidden="true"></i>
       <div>Select a file or drag here</div>
       <div id="notimage" class="hidden">Please select an image</div>
-      {% csrf_token %}
-      {{ form.as_p }}
       <span id="file-upload-btn" class="btn btn-primary">Select a file</span>
     </div>
     <div id="response" class="hidden">
@@ -30,7 +28,9 @@
       </progress>
     </div>
   </label>
-  <a href="#" class='btn'>Submit</a>
+  {% csrf_token %}
+  {{ form.as_p }}
+    <button type="submit">Submit</a>
 </form>
 
 {% if img_obj %}
