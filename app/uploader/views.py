@@ -19,3 +19,6 @@ def upload(request):
     else:
         form = ImageForm()
     return render(request, 'uploader/main.html', {'form': form})
+
+def result(request):
+    return render(request, 'uploader/result.html')
