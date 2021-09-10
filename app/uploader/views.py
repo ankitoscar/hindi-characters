@@ -7,3 +7,6 @@ def index(request):
 
 def upload(request):
     return render(request, 'uploader/main.html')
+
+def result(request):
+    return render(request, 'uploader/result.html')
