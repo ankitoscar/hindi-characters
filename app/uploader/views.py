@@ -8,7 +8,6 @@ def index(request):
     return render(request, 'uploader/homepage.html')
 
 def upload(request):
-<<<<<<< HEAD
     if request.method == 'POST':
         form = ImageForm(request.POST, request.FILES)
         if form.is_valid():
@@ -20,9 +19,6 @@ def upload(request):
     else:
         form = ImageForm()
     return render(request, 'uploader/main.html', {'form': form})
-=======
-    return render(request, 'uploader/main.html')
->>>>>>> 2c49804... Added result page modifications in backend
 
 def result(request):
     return render(request, 'uploader/result.html')
