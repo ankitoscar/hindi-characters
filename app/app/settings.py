@@ -129,6 +129,8 @@ MEDIA_URL = '/media/'
 
 MEDIA_ROOT = BASE_DIR.joinpath('media/')
 
+MODEL_PATH = BASE_DIR.joinpath('model/hindi_model.h5')
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
