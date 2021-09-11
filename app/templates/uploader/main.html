@@ -30,7 +30,7 @@
   </label>
   {% csrf_token %}
   {{ form.as_p }}
-    <button type="submit">Submit</button>
+    <button type="submit" class="btn">Submit</button>
 </form>
 
 {% if img_obj %}
@@ -38,7 +38,7 @@
   <img src="{{ img_obj.image.url}}" alt="connect" style="max-height:200px">
   <br>
   <br>
-  <a href="{% url 'result' %}"><button>See result</button></a>
+  <a href="{% url 'result' %}" class="btn"><button>See result</button></a>
 {% endif %}
 
 </html>
