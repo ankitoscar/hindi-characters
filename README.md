@@ -6,7 +6,7 @@ This project is an end-to-end implementation of a ML model used to predict the c
 
 Our project consists of a Django web app, with a basic structure and frontend, which takes the image of the character and then predicts to what class it belongs.
 
-![img.jpeg](imgs/iknowmyabc-trace-learn-writing-hindi-alphabet-vowel-and-number-workbook-by-i-know-my-abc-color-copy-av-1.jpeg)
+![img.jpeg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iknowmyabc.com%2Fproduct%2Ftrace-learn-writing-hindi-alphabet-vowel-and-number-workbook-by-i-know-my-abc-color-copy%2F&psig=AOvVaw2fbf827mMgWs1i4AqXp2_5&ust=1631557535021000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMDH8uaH-vICFQAAAAAdAAAAABAK)
 
 The project was made for the hackathon [India Academia Connect AI Hackathon](https://www.gpuhackathons.org/event/india-academia-connect-ai-hackathon). The relevant submission files are present in the [submission](submission/) directory.
 ### Dependencies
