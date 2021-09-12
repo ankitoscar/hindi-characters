@@ -3,6 +3,7 @@
       {% load static %}
         <title>Recogniser</title>
         <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+        <link rel="shortcut icon" type="image/png" href="{% static 'img/favicon.ico' %}"/>
         <script src="{% static 'js/script.js' %}"></script>
     </head>
 
@@ -38,7 +39,9 @@
   <img src="{{ img_obj.image.url}}" alt="connect" style="max-height:200px">
   <br>
   <br>
-  <a href="{% url 'result' %}" class="btn"><button>See result</button></a>
+  <a href="{% url 'result' %}">See result</a>
+  <br>
+
 {% endif %}
 
 </html>
