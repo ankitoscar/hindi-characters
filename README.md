@@ -29,8 +29,3 @@ To install python dependencies, use command *pip install -r requirements.txt*.
 
 After installing all the dependencies, go to *app* directory and use command *python manage.py runserver*. Then in the browser, open *localhost:8000*.
 
-
-## Acknowledgments
-
-* [Kaggle (for dataset)](https://kaggle.com)
-* [Stack Overflow](https://stackoverflow.com)
